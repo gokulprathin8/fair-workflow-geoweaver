@@ -1,6 +1,6 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-root: intro
+root: motivation
 format: jb-book
 parts:
 - caption: About
@@ -33,7 +33,7 @@ parts:
 - caption: Chapter Six
   chapters:
     - file: chapters/conclusion
-    
+
 - caption: Reference
   chapters:
     - file: reference/glossary
