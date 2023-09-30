@@ -32,13 +32,13 @@ parts:
   chapters:
     - file: chapters/implementation
 
-- caption: Chapter Six
-  chapters:
-    - file: chapters/evaluation
+# - caption: Chapter Six
+#   chapters:
+#     - file: chapters/evaluation
 
-- caption: Chapter Seven
-  chapters:
-    - file: chapters/workflow
+# - caption: Chapter Seven
+#   chapters:
+#     - file: chapters/workflow
 
 # - caption: Chapter Eight
 #   chapters:
