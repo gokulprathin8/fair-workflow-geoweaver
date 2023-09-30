@@ -2,7 +2,6 @@
 
 # Jupyter Book things
 .bash_history
-*_build
 .jupyter-server-log.txt
 .config/
 .jupyter/
