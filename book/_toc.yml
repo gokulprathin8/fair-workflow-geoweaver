@@ -33,31 +33,7 @@ parts:
 - caption: Chapter Six
   chapters:
     - file: chapters/conclusion
-
-# - caption: Chapter Seven
-#   chapters:
-#     - file: chapters/workflow
-
-# - caption: Chapter Eight
-#   chapters:
-#     - file: chapters/reproducibility
-
-# - caption: Chapter Ten (optional)
-#   chapters:
-#     - file: chapters/todo
-
-# - caption: Chapter Eleven (optional)
-#   chapters:
-#     - file: chapters/questions
-
-# - caption: Chapter Twelve (optional)
-#   chapters:
-#     - file: chapters/troubleshooting
-
-# - caption: Chapter Thirteen
-#   chapters:
-#     - file: chapters/example
-
+    
 - caption: Reference
   chapters:
     - file: reference/glossary
