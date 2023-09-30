@@ -12,4 +12,3 @@ dependencies:
   - jupytext
   - plotly
   - pandas
-  - pygeoweaver
