@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Pygeoweaver’s Architecture &#8212; Use Case Template</title>
+    <title>Motivation &#8212; Use Case Template</title>
   
   
   
@@ -63,11 +63,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'chapters/architecture';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'chapters/motivation';</script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="SWE Workflow" href="swe.html" />
-    <link rel="prev" title="Pygeoweaver" href="pygeoweaver.html" />
+    <link rel="next" title="Pygeoweaver" href="pygeoweaver.html" />
+    <link rel="prev" title="Welcome to the GeoSMART Jupyter Book!" href="../intro.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -165,16 +165,16 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference external" href="https://foundations.projectpythia.org/landing-page.html">Project Pythia Foundations</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter One</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="motivation.html">Motivation</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Motivation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter Two</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="pygeoweaver.html">Pygeoweaver</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter Three</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Pygeoweaver’s Architecture</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Pygeoweaver’s Architecture</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Chapter Four</span></p>
 <ul class="nav bd-sidenav">
@@ -246,7 +246,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/geo-smart/use_case_template/main?urlpath=lab/tree/book/chapters/architecture.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/geo-smart/use_case_template/main?urlpath=lab/tree/book/chapters/motivation.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch onBinder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -294,7 +294,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/geo-smart/use_case_template/edit/main/book/chapters/architecture.ipynb" target="_blank"
+      <li><a href="https://github.com/geo-smart/use_case_template/edit/main/book/chapters/motivation.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -311,7 +311,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/geo-smart/use_case_template/issues/new?title=Issue%20on%20page%20%2Fchapters/architecture.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/geo-smart/use_case_template/issues/new?title=Issue%20on%20page%20%2Fchapters/motivation.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -341,7 +341,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../_sources/chapters/architecture.ipynb" target="_blank"
+      <li><a href="../_sources/chapters/motivation.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -410,7 +410,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -421,11 +423,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Pygeoweaver’s Architecture</h1>
+    <h1>Motivation</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pygeoweaver-and-its-role-in-addressing-these-challenges">Pygeoweaver and its role in addressing these challenges</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -435,12 +445,26 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="pygeoweaver-s-architecture">
-<h1>Pygeoweaver’s Architecture<a class="headerlink" href="#pygeoweaver-s-architecture" title="Permalink to this heading">#</a></h1>
-<p>In this chapter, we explore the architecture of Pygeoweaver, offering a comprehensive understanding of its inner workings. Pygeoweaver’s architecture is the foundation that empowers researchers to streamline scientific workflows efficiently. By grasping the core components and their interactions, you’ll be better equipped to harness Pygeoweaver’s capabilities effectively. The modularity of pygeoweaver enhances its flexibility, adaptability and versatility.</p>
-<p><img alt="" src="../_images/arch-pygeoweaver.png" /></p>
-<p>At the heart of Pygeoweaver’s architecture lies seamless integration between Pygeoweaver and Geoweaver. This collaboration makes it possible to execute scientific workflows within jupyter notebook.Pygeoweaver and Geoweaver communicate through a set of well-defined API calls, these API calls bridge the instructions and data flow between two entities. While Pygeoweaver takes the spotlight, Geoweaver operates behind the scenes, executing workflows and managing data. It interprets Pygeoweaver’s instructions, orchestrating the execution of processes and handling data management. Additionally, Geoweaver handles errors and exceptions, ensuring workflow continuity.</p>
-<p>Pygeoweaver offers a suite of functions to empower your workflow management. You can create processes in two ways: either by importing code from a file or by writing your own code. These processes can then be orchestrated into workflows, where you define the structure and dependencies, creating a seamless sequence of tasks. If collaboration is your goal, Pygeoweaver provides export and import functions to enhance sharing capabilities. Dive deeper into your processes and workflows with detailed insights, and when you’re ready to put your plans into action, Pygeoweaver’s execution functions step in to execute your processes and workflows seamlessly. It’s like having a toolkit that enables you to compose, analyze, and conduct your workflow with ease.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="motivation">
+<h1>Motivation<a class="headerlink" href="#motivation" title="Permalink to this heading">#</a></h1>
+<p>Scientific research in the field of Earth sciences is both exciting and challenging. Scientists in this domain often grapple with the complexity of managing vast datasets, algorithms, and the need for reproducibility and collaboration. These challenges can hinder research productivity and the adherence to FAIR principles, which are vital for creating research that is Findable, Accessible, Interoperable, and Reusable.</p>
+<p>This book aims to address these challenges by exploring the use of Pygeoweaver, a powerful library built on the robust foundation of Geoweaver. Pygeoweaver provides scientists with an accessible and user-friendly solution for managing complex scientific workflows. It streamlines the creation, execution, and sharing of these workflows, making research processes more efficient and results more reliable.</p>
+<!-- #### The significance of scientific workflows in Earth research -->
+<p>Scientific workflows serve an important role in Earth sciences research, helping with data analysis, modeling, and experimentation. Without well-structured workflows, researchers may struggle to manage the various components of their studies, leading to inefficiency and errors. Moreover, the importance of adhering to FAIR principles cannot be overstated. These principles ensure that research outputs are discoverable, accessible, interoperable, and reusable by others in the scientific community. Adherence to FAIR principles not only enhances the quality of research but also fosters collaboration and accelerates scientific progress.</p>
+<!-- #### Challenges in research productivity and FAIR principles adherence -->
+<p>Low research productivity is a common challenge in scientific research. Researchers often find themselves spending excessive time on the logistics of managing data, running experiments, and documenting their work. This leaves less time for actual scientific exploration and analysis, slowing down the pace of discovery.FAIR principles are essential for making research outputs accessible and usable by the broader scientific community. However, achieving full FAIR compliance can be daunting, as it requires careful data management, metadata creation, and adherence to standardized practices.</p>
+<section id="pygeoweaver-and-its-role-in-addressing-these-challenges">
+<h2>Pygeoweaver and its role in addressing these challenges<a class="headerlink" href="#pygeoweaver-and-its-role-in-addressing-these-challenges" title="Permalink to this heading">#</a></h2>
+<p>Pygeoweaver emerges as a transformative solution to these challenges. This Python library aims to streamline scientific workflow management by simplifying workflow development, execution, and sharing. It simplifies the creation and execution of complex scientific workflows. Pygeoweaver places a strong emphasis on the integration of FAIR principles. It enables researchers to create workflows that inherently adhere to the principles of findability, accessibility, interoperability, and reusability.Pygeoweaver prioritizes the integration of FAIR principles (Findable, Accessible, Interoperable, and Reusable) throughout its design and functionality. This integration is achieved through a combination of features and capabilities that ensure workflows created with Pygeoweaver inherently adhere to these principles:</p>
+<p><strong>Unique Identifiers &amp; Metadata:</strong> Pygeoweaver assigns a unique workflow Id to every workflow and every process that users create.These identifiers enhance the findability of resources. Additionally, comprehensive metadata is associated with each workflow, ensuring that essential information about the workflow’s purpose, inputs, and outputs is readily available.</p>
+<p><strong>Search &amp; Discovery:</strong> Users can search search processes by Id or Name making it easy to locate specific workflows or processes. This findability feature is crucial for efficient resource discovery.</p>
+<p><strong>User-Friendly Documentation:</strong> Pygeoweaver promotes the creation of detailed documentation for workflows. This documentation is not only accessible to the creator but is also made available to other users who may want to understand and reuse / import the workflow. Clear and comprehensive documentation enhances the accessibility of workflows.</p>
+<p><strong>Interoperability:</strong> Pygeoweaver is designed to work seamlessly with various data formats and computational tools commonly used in scientific research. It ensures that workflows can interface with a wide range of data sources and processing steps, fostering interoperability.</p>
+<p><strong>Reusable Workflow Components:</strong> Pygeoweaver encourages the development of reusable workflow components. Researchers can create modular workflow processes that can be easily integrated into other workflows. This promotes the reusability of not only entire workflows but also individual components, saving time and effort.</p>
+<p><strong>History Management:</strong> Pygeoweaver maintains a comprehensive history of workflow versions and changes. This version control capability allows researchers to track modifications and revert to previous states when necessary, ensuring the reliability and transparency of workflows.</p>
+<p><strong>Collaboration and Sharing:</strong> Pygeoweaver facilitates collaboration among researchers. Workflows can be easily shared with colleagues, promoting knowledge exchange and reuse. This sharing capability aligns with the FAIR principle of reusability.
+Accessibility Across Platforms: Pygeoweaver’s cross-platform compatibility ensures that workflows created with the library can be accessed and executed across diverse research environments, making them accessible to a broader user base</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -474,20 +498,20 @@ document.write(`
                   <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="pygeoweaver.html"
+       href="../intro.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Pygeoweaver</p>
+        <p class="prev-next-title">Welcome to the GeoSMART Jupyter Book!</p>
       </div>
     </a>
     <a class="right-next"
-       href="swe.html"
+       href="pygeoweaver.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">SWE Workflow</p>
+        <p class="prev-next-title">Pygeoweaver</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -497,6 +521,20 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pygeoweaver-and-its-role-in-addressing-these-challenges">Pygeoweaver and its role in addressing these challenges</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
